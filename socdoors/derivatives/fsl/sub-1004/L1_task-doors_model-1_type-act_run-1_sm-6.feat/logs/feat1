@@ -1,0 +1,12 @@
+
+/bin/cp /ZPOOL/data/projects/istart-melanie/socdoors/derivatives/fsl/sub-1004/L1_sub-1004_task-doors_model-1_type-act_run-1.fsf design.fsf
+
+/home/tur61139/fsl/bin/feat_model design
+Can't open /ZPOOL/data/projects/istart-melanie/socdoors/derivatives/fsl/EVfiles/sub-1004/doors/run-1_win.txt for reading
+
+FATAL ERROR ENCOUNTERED:
+COMMAND:
+/home/tur61139/fsl/bin/feat_model design
+ERROR MESSAGE:
+child process exited abnormally
+END OF ERROR MESSAGE

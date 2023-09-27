@@ -12,7 +12,7 @@
 # ensure paths are correct irrespective from where user runs the script
 scriptdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 maindir="$(dirname "$scriptdir")"
-istartdatadir=/data/projects/istart-data
+istartdatadir=/ZPOOL/data/projects/istart-data
 
 # study-specific inputs
 sm=6
@@ -161,4 +161,4 @@ else # otherwise, do activation and seed-based ppi
 	rm -rf ${OUTPUT}.feat/stats/corrections.nii.gz
 	rm -rf ${OUTPUT}.feat/stats/threshac1.nii.gz
 	rm -rf ${OUTPUT}.feat/filtered_func_data.nii.gz
-done
+# done
